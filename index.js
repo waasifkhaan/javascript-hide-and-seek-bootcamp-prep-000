@@ -20,8 +20,8 @@ function increaseRankBy(n){
 }
 function deepestChild(){
   const div = document.querySelectorAll('div#grand-node')
-  x = div.length;
-  z = div[div.length].innerHTML
+  var x = div.length;
+  var z = div[div.length].innerHTML
   return z
 }
 
