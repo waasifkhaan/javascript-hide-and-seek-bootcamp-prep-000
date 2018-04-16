@@ -24,6 +24,3 @@ function deepestChild(){
   var z = div[div.length].innerHTML
   return z
 }
-
-
-  
